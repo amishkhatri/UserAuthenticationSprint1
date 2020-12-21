@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>xp.auth.console.ui</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationCoreService.csproj" />
+    <ProjectReference Include="..\AuthenticationIntegration\AuthenticationIntegration.csproj" />
+  </ItemGroup>
+
+</Project>
